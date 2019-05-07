@@ -1,0 +1,23 @@
+.nav-list {
+  border-top: 1px solid #6d5757;
+  list-style: none;
+  margin: 0;
+  padding: 5px 0 0 20px;
+  display: flex;
+  justify-content: space-start;
+
+  &__link {
+    color: #191716;
+    padding: 5px 10px;
+    margin: 0 4px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    display: inline-block;
+
+    &_active {
+      color: #3D348B;
+      background: #D9D1D4;
+    }
+  }
+}

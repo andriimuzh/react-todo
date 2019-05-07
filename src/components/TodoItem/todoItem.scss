@@ -1,0 +1,40 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 0 0 0 20px;
+
+  &:hover {
+    background: #e5e2e4;
+  }
+
+  &__text {
+    padding: 0 10px;
+    width: 95%;
+    margin: 0;
+
+    &_done {
+      color: #7180AC;
+      text-decoration: line-through;
+    }
+  }
+
+  &__close-btn {
+    width: 5%;
+    color: inherit;
+    cursor: pointer;
+    border: none;
+    padding: 5px 8px;
+    font-size: 24px;
+    background: none;
+    outline: none;
+
+    &:hover {
+      background: #f44336;
+      color: #fff;
+    }
+  }
+
+
+}

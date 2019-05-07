@@ -1,0 +1,41 @@
+.header {
+  margin: 0;
+  background: #DB5461;
+
+  &__title {
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    padding: 12px 0;
+  }
+
+  &__form {
+    display: flex;
+    height: 35px;
+    padding: 0 25px 15px;
+  }
+
+  &__input {
+    height: 100%;
+    width: 80%;
+    padding: 0 10px;
+    border: 0;
+    color: #666;
+    outline: none;
+    font-size: inherit;
+    border: 1px solid #999;
+    box-sizing: border-box;
+  }
+
+  &__btn {
+    display: block;
+    width: 20%;
+    font-weight: 700;
+    color: #fff;
+    background: #586A73;
+    border: 0;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+}
